@@ -9,6 +9,6 @@ keywords = ["solana", "raydium", "amm", "anchor"]
 
 [dependencies]
 anchor-lang = "0.29.0"
-solana-program = "~1.18.0"
+solana-program = "1.17.6"
 spl-token = { version="4.0.0", features = [ "no-entrypoint" ] }
 raydium-contract-instructions = { path = "../lib"}
